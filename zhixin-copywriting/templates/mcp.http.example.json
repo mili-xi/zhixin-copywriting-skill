@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "zhixin-ai": {
+      "type": "http",
+      "url": "${ZHIXIN_MCP_URL}",
+      "headers": {
+        "Authorization": "Bearer ${ZHIXIN_MCP_TOKEN}"
+      }
+    }
+  }
+}
